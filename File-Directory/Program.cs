@@ -7,9 +7,10 @@ namespace File_Directory
     {
         static void Main(string[] args)
         {
-            Process.Start(@"F:\BaiduYunDownload");
+            //Process.Start(@"F:\BaiduYunDownload");
             //new FileSystemInfoCase(@"F:\BaiduYunDownload");
-            new ListAllFiles(@"F:\BaiduYunDownload");
+            //new ListAllFiles(@"F:\BaiduYunDownload");
+            new UseSerialization("");
             Console.ReadLine();
         }
     }

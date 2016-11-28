@@ -47,6 +47,7 @@
     <Compile Include="FileSystemInfoCase.cs" />
     <Compile Include="Function\ListAllFiles.cs" />
     <Compile Include="Function\MyFileSystemWatcher.cs" />
+    <Compile Include="Function\UseSerialization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,3 +12,9 @@ if ((fsi.Attributes & FileAttributes.Directory) == FileAttributes.Directory){ en
 ```
  DirectoryInfo dir = info as DirectoryInfo;if( dir == null ) return; //不是目录
 ```
+
+# 序列化
+1. BinaryFormatter
+2. 流程
+对象-->存入文件;
+读文件-->生成对象
