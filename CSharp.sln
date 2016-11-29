@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1迭代器Basic", "11.迭�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2迭代器_yield以及流的延迟计算", "迭代器_yield以及流的延迟计算\2迭代器_yield以及流的延迟计算.csproj", "{2C06F079-BF02-49CD-B1C9-587F7612BECF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicKnowldge", "BasicKnowldge", "{2B0946FC-32DC-4052-9BB9-EC784059A930}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreliminaryKnowledge", "PreliminaryKnowledge", "{2B0946FC-32DC-4052-9BB9-EC784059A930}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grammar", "Grammar", "{4C523311-118C-40F2-AD88-3BD84F542A79}"
 EndProject
