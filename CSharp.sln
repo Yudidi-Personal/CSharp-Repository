@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO-Stream", "IO-Stream", "{C50DE030-F238-4B3F-BD75-7639A20B0C2B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_IO-Stream", "2_IO-Stream", "{C50DE030-F238-4B3F-BD75-7639A20B0C2B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinQ", "LinQ", "{968FB026-CC71-4A1C-B240-C393F96EE700}"
 EndProject
@@ -28,6 +28,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrequentlyUseFunction", "FrequentlyUseFunction", "{EAB92809-1E18-46E5-B894-E67D53269AFD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "FrequentlyUseFunction\Crawler\Crawler.csproj", "{C685840D-78EF-4097-BB2A-9C7978B216DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_基础类和常用算法", "1_基础类和常用算法", "{939C4A59-EDFB-4D76-A6C7-BC446FFDF9E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicClasses", "BasicClasses\BasicClasses.csproj", "{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,10 @@ Global
 		{C685840D-78EF-4097-BB2A-9C7978B216DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C685840D-78EF-4097-BB2A-9C7978B216DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C685840D-78EF-4097-BB2A-9C7978B216DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +90,6 @@ Global
 		{2C06F079-BF02-49CD-B1C9-587F7612BECF} = {2B0946FC-32DC-4052-9BB9-EC784059A930}
 		{943FCBEC-CE18-4FDF-894D-3685A158ED00} = {968FB026-CC71-4A1C-B240-C393F96EE700}
 		{C685840D-78EF-4097-BB2A-9C7978B216DE} = {EAB92809-1E18-46E5-B894-E67D53269AFD}
+		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0} = {939C4A59-EDFB-4D76-A6C7-BC446FFDF9E7}
 	EndGlobalSection
 EndGlobal
