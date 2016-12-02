@@ -13,10 +13,41 @@ namespace _10.扩展方法
     //<5>第一个参数不能有其他修饰符（比如ref或者out）
     //<6>第一个参数不能是指针类型
 
+
+    /// <summary>
+    ///  Right extend method
+    /// </summary>
+    static class TopLevelClass
+    {
+        /// <summary>
+        /// 1. 扩展方法必须是静态方法--static
+        /// 2. 至少一个参数--val
+        /// 3. 第一个参数必须附加前缀--this
+        /// </summary>
+        /// <param name="val"></param>
+        public static void ExtendMethod(this String val)
+        {
+            Console.WriteLine(val);
+        }
+
+       
+        public void ExtendMethod(this String val)
+        {
+            Console.WriteLine(val);
+        }
+
+        public static void UseExtendMethod()
+        {
+            var a = "aaa";
+            a.ExtendMethod();
+        }
+    }
+
+    #region three error define
     /// <summary>
     /// 1.1 non-static class
     /// </summary>
-    public class NonStatClass
+    class NonStatClass
     {
         public static void PrintString(this String val)
         {
@@ -68,34 +99,5 @@ namespace _10.扩展方法
         }
     }
 
-    /// <summary>
-    /// 1. Right extend method
-    /// </summary>
-    public static class TopLevelClass
-    {
-        public static void PrintString(this String val)
-        {
-            Console.WriteLine(val);
-        }
-
-        /// <summary>
-        /// 2. 扩展方法必须是一个静态方法
-        /// </summary>
-        /// <param name="val"></param>
-        public void PrintString(this String val)
-        {
-            Console.WriteLine(val);
-        }
-
-        public static void UseExtendMethod()
-        {
-            var a = "aaa";
-            a.PrintString();
-        }
-    }
-
-
-
-
-
+    #endregion
 }
