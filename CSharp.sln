@@ -33,6 +33,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_基础类和常用算法"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicClasses", "BasicClasses\BasicClasses.csproj", "{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAlgorithm", "FrequentlyUseFunction\SimpleAlgorithm\SimpleAlgorithm.csproj", "{2F73B7E5-190F-49A5-8BE9-F53DF71007EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A21ED22-578F-425D-A50B-BBEEF967DB99}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +82,10 @@ Global
 		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F73B7E5-190F-49A5-8BE9-F53DF71007EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F73B7E5-190F-49A5-8BE9-F53DF71007EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F73B7E5-190F-49A5-8BE9-F53DF71007EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F73B7E5-190F-49A5-8BE9-F53DF71007EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +102,6 @@ Global
 		{943FCBEC-CE18-4FDF-894D-3685A158ED00} = {968FB026-CC71-4A1C-B240-C393F96EE700}
 		{C685840D-78EF-4097-BB2A-9C7978B216DE} = {EAB92809-1E18-46E5-B894-E67D53269AFD}
 		{88325A65-F1A0-4A47-AE7E-216B8CC80EC0} = {939C4A59-EDFB-4D76-A6C7-BC446FFDF9E7}
+		{2F73B7E5-190F-49A5-8BE9-F53DF71007EC} = {939C4A59-EDFB-4D76-A6C7-BC446FFDF9E7}
 	EndGlobalSection
 EndGlobal
