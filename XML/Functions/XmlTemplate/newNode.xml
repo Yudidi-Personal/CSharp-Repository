@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<book>
+  <name>{name}</name>
+  <price>10</price>
+  <memo>{memo}</memo>
+</book>
