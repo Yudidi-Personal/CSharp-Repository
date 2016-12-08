@@ -1,7 +1,14 @@
 ﻿
 
-# Some method
-1. XContainer.Descendants
+# Xml operations
+
+1. Create,insert
+
+1.1 XContainer.Descendants
+
+2. Search,insert
+
+Q: Elements() | Descendants()
 
 # Work with NameSpace
 
