@@ -13,8 +13,6 @@ Q: Elements() | Descendants()
 # Work with NameSpace
 
 
-
-
 # Functions
 ---
 
