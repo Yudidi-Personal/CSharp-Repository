@@ -10,9 +10,11 @@ namespace XML
     {
         static void Main(string[] args)
         {
-            //CreateXml.CreateXmlByTree();
-            Insert.BasicInsert(@"..\..\Functions\Xml\Insert.xml");
+            Elements_Descendants.Elements_Descendants_Diff();
+            //UseXmlNameSpace.Create();
             Console.ReadLine();
+            //Insert.BasicInsert(@"..\..\Functions\Xml\Insert.xml");
+            //CreateXml.CreateXmlByTree();
         }
     }
 }

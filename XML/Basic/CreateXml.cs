@@ -13,7 +13,7 @@ namespace XML
 {
     public class CreateXml
     {
-        public static string xmlTemplate = ConfigurationManager.AppSettings["XmlTemplate"];
+        public static string xmlFileTemplate = ConfigurationManager.AppSettings["XmlTemplate"];
         public static string newNodeTemplate = ConfigurationManager.AppSettings["NewNodeTemplate"];
 
         /// <summary>
@@ -23,7 +23,7 @@ namespace XML
         /// <param name="xmlPath"></param>
         public static void CreateXmlWithTemplate(string xmlPath)
         {
-            XDocument xDoc = XDocument.Load(xmlTemplate);
+            XDocument xDoc = XDocument.Load(xmlFileTemplate);
             XDocument itemDoc = XDocument.Load(newNodeTemplate);
             // replace 
             XElement titleElement = itemDoc.Root.Descendants("title").First();
@@ -31,16 +31,14 @@ namespace XML
 
         public static void CreateXmlByTree()
         {
-            XElement xmlTree = new XElement("Root",
-               new XAttribute("Att1", "AttributeContent"),
-               new XElement("Child",
-                   new XText("Some text"),
-                   new XElement("GrandChild", "element content")
-               )
-            );
-            XDocument xDoc = new XDocument(xmlTree);
-            xDoc.Save("tmp.xml");
-            Process.Start("tmp.xml");
+            XElement xmlTree = new XElement("TreeRoot",
+                new XAttribute("attr", "the value"),
+                new XText("This is Text"),
+                new XElement("Leave", "The body of leave!"));
+            XDocument xDoc = new XDocument();
+            xDoc.Add(xmlTree);
+            xDoc.Save("tree.xml");
+            Process.Start("tree.xml");
             //XElement xmlTree2 = new XElement("Root", new XAttribute("attr", "AttrbuteContent"),
             //    new XElement("SubNode",) );
         }

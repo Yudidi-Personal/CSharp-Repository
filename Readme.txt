@@ -8,14 +8,28 @@
 
 2. Search,insert
 
-Q: Elements() | Descendants()
+Q: diff: Elements() | Descendants()
+A: directly child | all child in every position.
 
 # Work with NameSpace
+
+1. default namespace: xmlns --> XNamespace.Xmlns
+```
+<Root xmlns="Name sapce one">
+  <Childs xmlns="Name sapce two">
+    <child xmlns="">1</child>
+    <child xmlns="">2</child>
+  </Childs>
+</Root>
+```
+2. control the prefixes of the namespace
+https://msdn.microsoft.com/en-us/library/bb387069(v=vs.110).aspx
+```
+```
 
 
 # Functions
 ---
-
 # 1. Create xml according to two template XML files -- 用于格式固定的xml的一次生成
 
 # 2.
