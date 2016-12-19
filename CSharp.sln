@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_IO-Stream", "2_IO-Stream", "{C50DE030-F238-4B3F-BD75-7639A20B0C2B}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1迭代器Basic", "CSharp\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "CSharp\LinQ\PreliminaryKnowledge\Iterator\Iterator.csproj", "{9B312BDE-3E5F-4F96-B85F-C62637EEFD88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemGenericDelegate", "CSharp\LinQ\PreliminaryKnowledge\SystemGenericDelegate\SystemGenericDelegate.csproj", "{C029DCD2-E585-4C45-BA79-C121C553AE1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegate", "CSharp\LinQ\PreliminaryKnowledge\SystemGenericDelegate\GenericDelegate.csproj", "{C029DCD2-E585-4C45-BA79-C121C553AE1B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningLinq", "CSharp\LinQ\LearningLinq\LearningLinq.csproj", "{943FCBEC-CE18-4FDF-894D-3685A158ED00}"
 EndProject
