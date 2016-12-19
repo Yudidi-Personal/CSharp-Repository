@@ -13,7 +13,6 @@ namespace _10.扩展方法
     //<5>第一个参数不能有其他修饰符（比如ref或者out）
     //<6>第一个参数不能是指针类型
 
-
     /// <summary>
     ///  Right extend method
     /// </summary>
@@ -29,16 +28,10 @@ namespace _10.扩展方法
         {
             Console.WriteLine(val);
         }
-
-       
-        public void ExtendMethod(this String val)
-        {
-            Console.WriteLine(val);
-        }
-
+      
         public static void UseExtendMethod()
         {
-            var a = "aaa";
+            string a = "aaa";
             a.ExtendMethod();
         }
     }
